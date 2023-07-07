@@ -1,3 +1,5 @@
+
+
 .header{
     display: flex;
     left: 0px;
@@ -136,7 +138,6 @@
 }
 
 .left-container{
-/*	background: lightblue;*/
 	flex: 1;
 	max-width: 220px;
 	padding-right: 30px;
@@ -144,11 +145,6 @@
 	flex-direction: column;
 	justify-content: flex-start;
 
-}
-
-.right-container{
-	background: lightblue;
-	flex: 1;
 }
 
 .left-top{
@@ -167,7 +163,7 @@
 }
 
 .left-top-top-bimage{
-	width: 220px;
+	
 	position: relative;
 }
 
@@ -464,9 +460,84 @@
 	font-size: 15px;
 }
 
+.right-container{
+	flex: 1;
+	justify-content: flex-start;
+    align-self:flex-start; 
+    display: flex;
+    flex-direction: column;
+}
 
+.right-top{
+	max-width: 270px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	border-radius: 20px;
+	background: white;
+}
 
+.right-contents{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 14px;
+}
 
+.right-head{
+	padding-bottom: 10px;
+	font-size: 18px;
+	font-weight: 600;
+
+}
+
+.keypoints{
+	margin-top: 0px;
+	font-size: 14px;
+	color: #7F7F7F;
+}
+
+.uppoints{
+	font-weight: 550;
+	opacity: 0.9;
+	margin-top: 5px;
+	margin-bottom: 3px;
+	font-size: 14px;
+}
+
+.listpoints{
+cursor: pointer;
+	padding-left: 10px;
+}
+
+.listpoints:hover{
+	background: #EBEBEB;
+}
+
+.right-down{
+	max-width: 260px;
+	padding-left: 25px;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+   
+}
+.p1,.p2,.p3,.p4{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	gap: 20px;
+	justify-content: evenly-between;
+}
+.ppoints{
+  cursor: pointer;	
+  font-size: 13px;
+  padding-bottom: 5px;
+}
+.p5{
+	color: black;
+	font-size: 15px;
+	font-weight:bold;
+}
 
 
 
